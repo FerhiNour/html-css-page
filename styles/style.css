@@ -84,3 +84,33 @@ button {
   color: white;
   font-weight: bold;
 }
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+dl dt {
+  margin-top: 15px;
+}
+
+.company,
+.get,
+.folow {
+  font-weight: bold;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.company::after,
+.get::after,
+.folow::after {
+  content: "";
+  background-color: rgb(240, 84, 0);
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: -70px;
+}
